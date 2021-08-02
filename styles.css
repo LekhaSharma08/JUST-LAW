@@ -1,0 +1,84 @@
+body{
+    position: static;
+    font-family: 'Poppins',sans-serif;
+    /* background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1300px 920px;
+     */
+}
+p{
+    
+    font-size:130%;
+    color: grey;
+    font-weight: bold;
+  
+}
+.quote{
+    font-size:3.4vw;
+    height: 3vw;
+    color: black;
+    font-weight: bolder;
+     /* padding: 0px 40px 0px 0;  */
+    /* margin-block-start : 0;
+    margin-block-end : 0;  */
+    
+    /* margin-top:0px;
+    margin-right: 10px;
+    margin-left:0; */
+    
+   
+}
+.qoute1{
+   
+    
+}
+.quote2{
+    line-height: 0.7;
+    
+}
+.description{
+    /* padding: 40px 70px 0px 5px; */
+    position: relative;
+    top: 3vw;
+    /* margin-bottom: 0px;
+    margin-right: 10px;
+    margin-left:0;  */
+    
+    
+}
+.top-container{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/* @media screen and (orientaion: portrait) {
+    #move{
+        font-size : 3vw ;
+        left:30%;
+        width: 50%;
+  }
+} */
+@media only screen and (max-width: 1199px){
+
+    .header{
+        height: 8.5vw;
+    }
+
+    /* .fixedNavbar{
+        height: 6.5vw;
+        -webkit-animation: fadeDown 0.3s ease forwards;
+    } */
+}
+#move{
+
+    padding-left: 28%;
+    padding-top: 10%;
+    
+
+}
+
+    
