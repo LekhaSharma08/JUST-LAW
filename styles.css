@@ -1,10 +1,14 @@
+
 body{
     position: static;
     font-family: 'Poppins',sans-serif;
+    font-weight: bolder;
     /* background-image: url("background.jpg");
     background-repeat: no-repeat;
     background-size: 1300px 920px;
      */
+     margin: 0 ;
+     padding: 0;
 }
 p{
     
@@ -28,10 +32,7 @@ p{
     
    
 }
-.qoute1{
-   
-    
-}
+
 .quote2{
     line-height: 0.7;
     
@@ -51,11 +52,71 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    height: 100%;
+    height: 95%;
     width: 100%;
 }
 
-/* @media screen and (orientaion: portrait) {
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#222222;
+    color: white;
+}
+.brand{
+    
+    font-size: 1.8rem;
+    margin-left: 4rem;
+    margin-bottom:0.8rem;
+    margin-top: 0.8rem;
+}
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-left: 8rem;
+}
+.navbar-links li{
+    list-style : none;
+    font-size: 0.8rem;
+}
+.navbar-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+.navbar-links :hover{
+    color:#CE1212;
+}
+
+#move{
+
+    padding-left: 28%;
+    padding-top: 10%;
+    
+
+}
+#btn1{
+    background-color: white;
+   margin-right: 4rem;
+   padding:13px 28px;;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 4px;
+   color: #CE1212;
+   border:none;
+   font-size: 0.8rem;
+   cursor: pointer;
+   transition-duration: 0.2s;
+}
+   
+#btn1:hover{
+    background-color: #CE1212;
+    color: white;  
+}
+
+  /* @media screen and (orientaion: portrait) {
     #move{
         font-size : 3vw ;
         left:30%;
@@ -72,13 +133,5 @@ p{
         height: 6.5vw;
         -webkit-animation: fadeDown 0.3s ease forwards;
     } */
-}
-#move{
-
-    padding-left: 28%;
-    padding-top: 10%;
-    
-
-}
-
+}  
     
