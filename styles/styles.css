@@ -1,0 +1,766 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+
+li a {
+  color: white;
+  font-size: 0.81rem;
+}
+
+li a:hover {
+  color: #ce1212;
+}
+
+.login-button {
+  padding-left: 6rem;
+}
+@media only screen and (max-width: 990px) {
+  .login-button {
+    padding-left: 0;
+    margin-left: 0;
+  }
+}
+
+.nav-brand {
+  color: white;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  font-size: 1.4rem;
+  padding-left: 5rem;
+}
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+
+.nav-item {
+  padding-right: 1rem;
+}
+
+.bg-color {
+  background-color: #171717;
+}
+
+.head {
+  background-image: url("../assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.description {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #85868a;
+  font-size: 1.5rem;
+  margin-bottom: 0.4rem;
+  padding-left: 14rem;
+}
+
+.quote {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  padding-left: 14rem;
+}
+
+.quote1 {
+  margin-bottom: 0.5rem;
+}
+
+.move {
+  padding-top: 12rem;
+  padding-bottom: 7rem;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .quote {
+    font-size: 2.2rem;
+    padding-left: 10rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+    padding-left: 10rem;
+  }
+
+  .move {
+    padding-top: 7rem;
+    padding-left: 0rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .quote {
+    font-size: 2.8rem;
+    padding-left: 10rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    padding-left: 10rem;
+  }
+
+  .move {
+    padding-top: 7rem;
+  }
+}
+
+.red-box {
+  background-color: #ce1212;
+  width: 28rem;
+  margin-left: 0;
+  color: white;
+  text-align: left;
+  padding-left: 9.5rem;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.text {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+  padding-top: 0.5rem;
+}
+
+.num {
+  font-size: 1.8rem;
+  margin-bottom: 0rem;
+}
+
+.white-heading {
+  padding-top: 10rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .white-heading {
+    font-size: 1.8rem;
+  }
+
+  .text {
+    font-size: 0.5rem;
+  }
+
+  .num {
+    font-size: 1.5rem;
+  }
+
+  .red-box {
+    width: 23rem;
+  }
+}
+
+.red-flow {
+  background-color: #ce1212;
+  width: 13%;
+  height: 0.3vw;
+  border-radius: 0.13vw;
+  margin-left: 43vw;
+  margin-top: 3rem;
+}
+
+.space {
+  background-color: white;
+  position: relative;
+  display: inline-block;
+  -webkit-animation: divider1 4s infinite linear;
+}
+@keyframes divider1 {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.img {
+  overflow: hidden;
+}
+
+img {
+  margin-top: 3.5rem;
+  width: 25rem;
+  height: 15rem;
+  overflow: hidden;
+}
+
+.random-text {
+  width: 14.5rem;
+  margin-left: 1.2vw;
+  margin-top: 2vw;
+  text-align: left;
+  overflow: hidden;
+}
+
+.features {
+  padding: 3% 15%;
+  margin-bottom: 8%;
+  margin-top: 1.5%;
+}
+
+.bold {
+  font-size: 1.3em;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.rel {
+  position: relative;
+}
+
+.hand-heart {
+  padding-left: 13rem;
+  position: absolute;
+  bottom: 0rem;
+}
+
+.abs {
+  background-color: white;
+  display: inline-block;
+  width: 4.4rem;
+  height: 4.8rem;
+  padding-left: 1.3rem;
+  padding-top: 1.5rem;
+  margin-right: 15rem;
+}
+
+.abs:hover {
+  background-color: #ce1212;
+  color: #fff;
+  transition-duration: 0.3s;
+}
+
+.img :hover {
+  transform: scale(1.1);
+  transition-duration: 0.2s;
+}
+
+.bold:hover {
+  color: #ce1212;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .hand-heart {
+    padding-left: 15rem;
+  }
+  .red-flow {
+    height: 0.5vw;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .hand-heart {
+    padding-left: 17rem;
+  }
+  .red-flow {
+    height: 0.8vw;
+  }
+}
+
+#btn1 {
+  background-color: white;
+  margin-right: 2rem;
+  margin-left: 0;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #ce1212;
+  border: none;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  border-style: none;
+}
+
+#btn1:hover {
+  background-color: #ce1212;
+  color: white;
+}
+
+.Just {
+  padding: 10% 10% 18% 12%;
+  background-color: #f5f5f5;
+
+  overflow: hidden;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  font-size: 2.6rem;
+  font-weight: bolder;
+}
+
+.red {
+  background-color: #ce1212;
+  width: 25%;
+  height: 0.3rem;
+  border-radius: 0.13vw;
+  margin-left: 4rem;
+  margin-top: 2.8vw;
+  margin-bottom: 5rem;
+}
+.spaces {
+  background-color: #f5f5f5;
+  position: relative;
+  display: inline-block;
+  -webkit-animation: divider1 4s infinite linear;
+}
+.para {
+  font-family: "Poppins", sans-serif;
+  width: 23rem;
+  overflow: hidden;
+  color: #7f7c82;
+  font-weight: bold;
+}
+.first {
+  margin-right: 30px;
+  overflow: visible;
+}
+
+.happy-clients {
+  position: relative;
+  width: 10rem;
+  height: 7rem;
+  background-color: white;
+  text-align: center;
+  padding-top: 1.3rem;
+  top: 3rem;
+}
+
+.winning-case {
+  position: relative;
+  width: 10rem;
+  height: 7rem;
+  background-color: white;
+  text-align: center;
+  padding-top: 1.3rem;
+  left: 11rem;
+  bottom: 4rem;
+}
+
+.image1 {
+  position: relative;
+
+  left: 13vw;
+  width: 23rem;
+  height: 28rem;
+  overflow: hidden;
+}
+
+.image2 {
+  position: absolute;
+  width: 21rem;
+  height: 28rem;
+  top: 3.5rem;
+  left: 0;
+  border: 20px solid rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+}
+
+.bg {
+  background-image: url("../assets/hammer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form {
+  width: 50%;
+  background-color: white;
+  margin-left: 20rem;
+  margin-bottom: 10rem;
+  align-self: center;
+}
+
+.form-heading {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  padding-top: 3rem;
+}
+
+.red3 {
+  background-color: #ce1212;
+  width: 17%;
+  height: 0.3vw;
+  border-radius: 0.13vw;
+  margin-left: 21vw;
+  margin-top: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.contents {
+  margin-top: 2rem;
+  padding-left: 4rem;
+  padding-bottom: 2rem;
+}
+
+.enter {
+  background-color: #e9e5e5;
+}
+
+#service {
+  width: 15rem;
+}
+
+#submit {
+  background-color: #ce1212;
+  color: white;
+  padding-right: 1rem;
+  width: 34.6rem;
+  font-weight: bold;
+}
+
+.submit-button {
+  padding-bottom: 2rem;
+}
+
+input {
+  border: none;
+  resize: vertical;
+  height: 3rem;
+  padding-left: 1rem;
+  border-radius: 0.3rem;
+}
+
+textarea {
+  border: none;
+  border-radius: 0.3rem;
+}
+
+select {
+  border: none;
+  color: #7f7c82;
+  height: 3rem;
+  padding-left: 1rem;
+  border-radius: 0.3rem;
+}
+
+::placeholder {
+  color: #676569;
+  font-weight: bold;
+}
+
+@media (min-width: 450px) and (max-width: 900px) {
+  .form {
+    width: 80%;
+    background-color: white;
+    margin-left: 2rem;
+    margin-bottom: 10rem;
+    align-self: center;
+  }
+  textarea {
+    border: none;
+    border-radius: 0.3rem;
+    width: 73%;
+  }
+  #submit {
+    background-color: #ce1212;
+    color: white;
+    padding-right: 1rem;
+    width: 73%;
+    font-weight: bold;
+  }
+  input {
+    width: 73%;
+  }
+  .type {
+    padding-top: 2rem;
+    margin-left: 2.5rem;
+  }
+  #service {
+    width: 73%;
+  }
+  .red3 {
+    margin-left: 35vw;
+    height: 0.7vw;
+  }
+  .form-heading {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    padding-top: 3rem;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1024px) and (orientation: landscape) {
+  .form {
+    margin-left: 9rem;
+    width: 70%;
+  }
+
+  input {
+    width: 73%;
+  }
+  #service {
+    width: 73%;
+  }
+  .red3 {
+    margin-left: 31vw;
+  }
+  .form-heading {
+    font-size: 2.5rem;
+  }
+  .red3 {
+    margin-left: 29vw;
+    height: 0.5vw;
+  }
+}
+
+.mates {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.red4 {
+  background-color: #ce1212;
+  width: 11%;
+  height: 0.4vw;
+  border-radius: 0.13vw;
+  margin-left: 44vw;
+  margin-top: 3rem;
+}
+
+.tm {
+  margin-top: 3.5rem;
+  width: 20rem;
+  height: 17rem;
+  overflow: hidden;
+}
+
+.names {
+  text-align: center;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+  padding-bottom: 0;
+  font-size: 1.4rem;
+}
+
+.quality {
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+@media (min-width: 450px) and (max-width: 900px) {
+  .red4 {
+    height: 0.8vw;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1024px) and (orientation: landscape) {
+  .red4 {
+    height: 0.5vw;
+  }
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vw;
+  padding-bottom: 4vw;
+  background-color: black;
+  background-size: 100% 100%;
+  color: white;
+}
+
+@media only screen and (max-width: 1199px) {
+  #blog {
+    padding-top: 2vw;
+    padding-bottom: 8vw;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #blog {
+    height: 60vw;
+    padding-bottom: 10vw;
+  }
+}
+
+.blogHeading {
+  margin-bottom: 2vw;
+  margin-top: 2.5vw;
+  font-size: 3vw;
+  font-weight: bolder;
+  color: white;
+}
+
+@media only screen and (max-width: 1199px) {
+  .blogHeading {
+    font-size: 4vw;
+    margin-bottom: 3vw;
+    margin-top: 10vw;
+  }
+}
+.white-black {
+  background-color: #ce1212;
+
+  width: 10%;
+  height: 0.3rem;
+  border-radius: 0.13vw;
+  margin-left: 2vw;
+  margin-top: 3vw;
+}
+
+@media only screen and (max-width: 1199px) {
+  .white-black {
+    width: 17%;
+    height: 0.5vw;
+    border-radius: 0.2vw;
+    margin-left: 1vw;
+  }
+}
+
+.black {
+  background-color: white;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  -webkit-animation: divider1 4s infinite linear;
+}
+
+#blog-carousel {
+  width: 70%;
+  margin: 5vw;
+}
+.carousel-item {
+  margin-left: 1vw;
+  width: 60%;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2vw;
+  font-weight: 600;
+  line-height: 2vw;
+}
+
+@media only screen and (max-width: 1199px) {
+  .carousel-item {
+    font-size: 1.5vw;
+    width: 75%;
+    margin-left: 1vw;
+  }
+}
+
+.author-image {
+  height: 60%;
+}
+
+.author-image img {
+  border-radius: 100%;
+  width: 14%;
+  height: 18%;
+  margin-top: 1vw;
+}
+
+.author-image h6 {
+  margin-top: 1vw;
+  font-size: 1.5vw;
+}
+
+.preFooter {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  background-color: #ce1212;
+}
+
+.loan {
+  display: flex;
+  flex-flow: column wrap;
+  color: white;
+  padding: 6vw 0;
+  margin-left: 12vw;
+  margin-right: 20vw;
+}
+
+@media only screen and (max-width: 1199px) {
+  .loan {
+    padding: 9vw 0;
+    margin-left: 8vw;
+    margin-right: 5vw;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .loan {
+    margin-left: 5vw;
+    margin-right: 8vw;
+  }
+}
+
+.loan h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 2.5vw;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 1199px) {
+  .loan h2 {
+    font-size: 4vw;
+  }
+}
+
+.loan p {
+  padding: 0;
+  margin-left: 2rem;
+  font-size: 1vw;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1199px) {
+  .loan p {
+    font-size: 1.7vw;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .loan p {
+    font-size: 2.1vw;
+    margin: 2vw 0;
+  }
+}
+
+.getStarted {
+  padding: 1.3vw 2vw;
+  border: none;
+  border-radius: 0.3vw;
+  font-size: 1vw;
+  font-weight: 600;
+  background-color: white;
+  color: #ce1212;
+  margin-right: 3vw;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+@media only screen and (max-width: 1199px) {
+  .getStarted {
+    padding: 2.2vw 3vw;
+    border-radius: 0.5vw;
+    font-size: 1.4vw;
+    margin-left: 5rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .getStarted {
+    padding: 3vw 4vw;
+    margin-left: 2rem;
+    border-radius: 0.5vw;
+    font-size: 1.8vw;
+  }
+}
